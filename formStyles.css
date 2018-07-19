@@ -1,0 +1,91 @@
+html {
+	background: #24C6DC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: arial;
+}
+
+body {
+	text-align: center;
+	font-family: Helvetica, sans serif;
+	min-width: 320px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#description {
+	font-size: 2em;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.labels {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	padding: 5px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.rightTab {
+	display: inline-block;
+	text-align: left;
+	width: 48%;
+	vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+
+#container {
+	margin: 0 auto;
+	width: 75%;
+	max-width: 900px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+/*label input {
+	margin-left: auto;
+	margin-right: auto;
+	width: 8em;
+}*/
+
+ul {
+	padding-left: 0;
+}
+
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+
+@media (max-width: 600px) {
+	
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}

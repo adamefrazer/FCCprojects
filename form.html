@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Practice</title>
+	<link rel="stylesheet" type="text/css" href="formStyles.css">
+</head>
+<body>
+
+
+<div id="container">
+	<h1 id="title">Highline Golf Coop</h1>
+  <p id="description">Welcome to the team!</p>
+
+	<form id="survey-form">
+
+		<div>
+			<div class="labels">
+				<label id="name-label" for="name">* Name:</label>
+			</div>
+			<div class="rightTab">	
+				<input id="name" class="input-field" type="text" name="name" placeholder="Enter your name" required>		
+			</div>
+
+			<div class="labels">	
+				<label id="email-label" for="email">* Email address:</label>
+			</div>
+			<div class="rightTab">	
+				<input id="email" class="input-field" type="email" class="input-field" name="email" placeholder="Enter your email address" required>
+			</div>
+
+			<div class="labels">
+				<label id="number-label" for="year">* Year:</label>
+			</div>
+			<div class="rightTab">	
+				<input id="number" class="input-field"  min="9" max="12" type="number" name="year" placeholder="Enter your year" required>
+			</div>	
+		</div>
+
+		
+		<div class="labels">	
+		<label for="yearsPlayed">How many years have you played?</label>
+		</div>
+		<div style="padding-left: 20px;" class="rightTab">
+			<select  class="rightTab" id="dropdown">
+				<option disabled value>>--Please select an option--<</option>	
+				<option value="0">0</option>
+				<option value="1">1</option>		
+				<option value="2">2</option>		
+				<option value="3">3</option>		
+				<option value="4">4</option>		
+				<option value="5+">5+</option>		
+			</select>
+		</div>	
+	
+
+		<div>
+			<div class="labels">
+			<label>Are you excited to play golf?</label>
+			</div>
+			<div style="padding-left: 20px;" class="rightTab">
+				<ul style="list-style: none;">
+					<li class="radio" ><label><input name="radio-buttons" type="radio" value="1">Yes</label></li>
+					<li class="radio" value="2"><label><input name="radio-buttons" type="radio" value="2">No</label></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="labels">
+			<label for="preferences">What is your favorite club?<br>(Check all that apply): </label>
+		</div>
+		<div style="padding-left: 20px;" class="rightTab">
+			<ul id="preferences" style="list-style: none;">
+				<li class="checkbox"><label><input type="checkbox" name="prefer" value="1">Driver</label></li>
+				<li class="checkbox"><label><input type="checkbox" name="prefer" value="2">Putter</label></li>
+				<li class="checkbox"><label><input type="checkbox" name="prefer" value="3">7 Iron</label></li>
+			</ul>
+		</div>	
+		
+			<div class="labels">
+				<label for="comments">Tell me something I should know about you:</label>
+			</div>
+			<div class="rightTab">
+			<textarea id="comments" class="input-field" name="comment" style="height: 50px; resize: vertical;" placeholder="Enter your comments here..."></textarea>
+			</div>
+		
+
+			<button id="submit" name="submit" type="submit">Submit</button>
+		
+
+	</form>
+</div>
+
+
+
+</body>
+</html>
